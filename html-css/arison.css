@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&display=swap');
 *{
     margin: 0;
     text-decoration: none;
-    box-sizing: border-box;
     padding: 0;
+    border: none;
+    box-sizing: border-box;
 }
 
 body{
     font-size: 100%;
-    background: #EC407A;
+    background:#FFE902;
+    
 }
 
 #cabeçalho{
@@ -17,14 +18,48 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding-bottom: 20px; 
+    background: #8E24AA;
+    padding-top: 16px;
 }
+
+#nav{
+    display: flex;
+    gap: 32px;
+}
+   
 
 
 .a{
-    font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 24px;
     color: rgb(255, 255, 255);
-    padding: 29px;
+    display: flex;
 }
+
+#conteudo{
+    display: flex;
+}
+
+.sorvete{ 
+    width:140px;
+    height: 199px;  
+}  
+
+#div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#h1{
+    display: flex;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding: 90px;
+}
+
