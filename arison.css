@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+/*header*/
+*{
+    font-size:100%;
+    margin: 0px;
+}
+
+body{
+   background: white url(https://i.pinimg.com/564x/4f/83/c5/4f83c577980e622c6245056c5647a1f0.jpg);
+    font-size: 100%;
+}
+
+
+
+header{
+    gap: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background: lightgrey;
+    height: 118px;
+}
+
+h2{
+    font-family: 'Fredoka', cursive;
+    font-weight: 500; 
+}
+
+
+#logo{
+height: 115px;
+}
+
+#a-header{
+    padding-top: 30px;
+    font-size: 46px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}/*header acima*/
+
+                   
+#div-h1-main{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+
+
+/*main abaixo*/
+#main{   
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+
+
+h1{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top:50px;
+
+}
+
+
+
+
+
