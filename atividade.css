@@ -1,0 +1,35 @@
+body{
+    background-color: lightgrey;
+}
+
+#div-1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: 'Fredoka', cursive;
+    color: blue;
+    border-bottom: 5px dashed white;
+}
+
+p{
+    font-size: 40px;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Fredoka', cursive;
+    border-bottom: 5px dashed white;
+}
+
+#div-2{
+   
+    height: 200px;
+    display: flex;
+    background-color: blue;
+    justify-content:center;
+}
+
