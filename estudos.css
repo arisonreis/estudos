@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Pacifico&display=swap');
+*{
+ text-decoration:none ;
+ list-style: none;
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    background-size:100vh ;
+}
+/*header abaixo*/
+#header{
+ display: flex;
+ height:100px;
+ background-color: #42B5FF;
+ display:flex;
+ align-items: center;
+ justify-content:center;
+}
+
+#nav,#ul,#li,#a{
+ margin:0px;
+ display:flex;
+ color: white;
+ font-family:'Fredoka', cursive;
+ padding:10px;
+ font-weight: bold;
+ font-size: 36px;
+ cursor: pointer;
+}
+#div-logo{
+ padding-inline-end: 110px;
+ display:flex;
+ align-items: center;
+ height: 150px;
+ border-bottom: 1px dashed black;
+background-color: white;
+}
+#logo{
+ display: flex;
+ width: 100px;
+ cursor: pointer;
+}
+h1{
+ display: flex;
+ font-family: 'righteous', cursive;
+ color: black;
+ font-size:40px;
+ cursor: pointer;
+}
+#div-logo, #logo, h1{
+ justify-content:center;
+ gap: 30px;
+}
+
+#produtos{
+ height: 80px;
+ background-color: white;
+ display: flex;
+}
+
+#produtos, #h2-produtos{
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+ padding-top: 5px;
+ color: #42B5FF;
+ font-size:50px;
+ font-weight: bold;
+ font-family: 'Fredoka', cursive;
+ cursor: pointer;
+}
+/*header acima*/
+
+
+
+
+
+
+/*MAIN ABAIXO*/
+main{   
+ background-image: url(fundogif.gif);
+ background-position: fixed;
+ background-attachment: fixed;
+ background-size: 100vh;
+}
+ 
+#container{
+ background: rgba(255, 255, 255, 0.1);
+ backdrop-filter : blur(10px);
+ -webkit-backdrop-filter: blur(10px); 
+ gap: 10px;
+ padding: 10px;
+ align-items: center;
+ display: flex;
+ justify-content: center ;
+ height:710px;
+ width: 1458px;
+}
+/*MAIN ACIMA*/
+
+
+
+
+
+
+
+
+
+/*DIV 1 ABAIXO*/
+#div1{
+background-color:rgb(255, 173, 188);
+height: 700px;
+width: 526.25px;
+}
+#p-1{
+ display: flex;
+ color:#873600;
+ font-family: 'sans-serif', cursive;
+ font-size:50px;
+ font-weight:bold;
+}
+   
+#p-2{
+ display: flex;
+ color:white;
+ font-family: 'sans-serif', cursive;
+ font-size:50px;
+ font-weight:bold;
+}
+   
+.div1,#p-1,#p-2{
+ justify-content:center;
+ cursor: pointer;
+}
+
+#imgs-div{
+ margin-left: 20px;
+ width: 400px;
+ display: flex;
+}
+
+#background{
+ background-image: url( fundovermelho.svg);
+ background-position: top right;
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+#img1-div-1{ 
+ -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+ filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+ transition: all 0.3s;
+ object-fit: contain;
+ width:120px;
+ cursor: pointer;
+}
+
+#img-div,#img1-div-1:hover{
+ transform: scale(1.1, 1.1);
+}
+
+#img2-div-1{
+ -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+ filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+ transition: all 0.3s;
+ object-fit: contain;
+ width:120px;
+ cursor: pointer;
+}
+#imgs-div,#img2-div-1:hover{
+ transform: scale(1.1, 1.1);      
+} 
+
+#img3-div-1{
+ -webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+ filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+ transition: all 0.3s;
+ object-fit: contain;
+ width:120px;
+ cursor: pointer;
+}
+
+#imgs-div,#img3-div-1:hover{
+ transform: scale(1.1, 1.1);
+}
+   
+   
+#imgs-div,#img1-div-1,#img2-div-1,#img3-div-1{
+ gap: 12px;
+ justify-content:center;
+ padding-left: 8px;
+ display: flex;
+ align-items: center;
+ margin-bottom: 10px;
+}
+
+#background2{
+ background-image: url(fundovermelho.svg);
+ background-position: center top right;
+ background-size: 100%;
+ background-attachment:scroll;
+ background-repeat: no-repeat;
+}
+
+ #background3{
+ background-image: url(fundovermelho.svg);
+ background-position: center top;
+ background-size: 100%;
+ background-attachment:scroll;
+ background-repeat: no-repeat;
+}
+
+#preço-1{
+ display: flex;
+ color: white;
+ background-color:rgba(0, 0, 0, 0.856);
+ cursor: pointer;
+}
+   
+#preço-1:hover{
+ transform: scale(1.1, 1.1);
+ }
+     
+#preço-2{
+ display: flex;
+ color: #fff;
+ background-color:rgba(0, 0, 0, 0.856);
+ cursor: pointer;
+ }
+   
+#preço-2:hover{
+ transform: scale(1.1, 1.1);
+}
+      
+#preço-3{
+ margin-right: 40px;
+ display: flex;
+ color: #fff;
+ background-color:rgba(0, 0, 0, 0.856);
+ cursor: pointer;
+}
+   
+#preço-3:hover{
+ transform: scale(1.1, 1.1);
+}
+
+#preço,#preço-1,#preço2,#preço-3{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ font-size: 19px;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+
+
+
+#quantidade{
+ display:flex;
+}
+
+.p-qtd1{
+ display: flex;
+ color:#873600;
+ cursor: pointer;
+}
+
+.p-qtd1:hover{
+ transform: scale(1.1, 1.1);
+}
+    
+.p-qtd2{
+ display: flex;
+ color:#873600;
+ cursor: pointer;
+}
+.p-qtd2:hover{
+ transform: scale(1.1, 1.1);
+}
+  
+.p-qtd3{
+    padding-right: 40px;
+ display: flex;
+ color: #873600;
+ cursor: pointer;
+}
+.p-qtd3:hover{
+ transform: scale(1.1, 1.1);
+}
+    
+#quantidade,.p-qtd1,.p-qtd2,.qtd-3{
+ font-size:18px;
+ font-weight: bold;
+ font-family: sans-serif, cursive;
+ display: flex;
+ justify-content:center;
+ justify-content: space-around;
+ align-items: center;
+ padding-top:0.5px;
+}
+    
+
+section{
+ gap: 20px;
+ display:flex;
+ align-items: center;
+ list-style: none;
+}
+
+#sabores{
+ margin-left: 10px;
+ height: 390px;
+ width: 192px;
+}
+
+#h2-sabores{
+ font-size:30px;
+ color: #F29028;
+ font-family: 'Fredoka', cursive;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+#sabores-2{
+ padding-top: 43.3px;
+ height:390px;
+ width: 192px; 
+}
+
+.a-sabores-2{
+ border-bottom: 2px dashed black;
+}
+
+#sabor,#li-sabores-2,#li-sabores-2,.a-sabores-2{
+ display: block;
+ justify-items:column;
+ align-items:center;
+ color: #A04000;
+ font-size:15px;
+ font-family: 'Fredoka', cursive;    
+}    
+
+.a-sabores{
+ border-bottom: 2px dashed black;
+}
+#sabor,#li-sabores,#lista-sabores,.a-sabores{
+ display: block;
+ justify-items: column;
+ align-items: center;
+ color: #A04000;
+ font-size:15px;
+ font-family: 'Fredoka', cursive;
+}       
+
+#borda-div1{
+    border-top: 3px solid black;
+}
+
+/** DIV 1 ACIMA  **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ DIV 2 ABAIXO
+ **/ 
+
+.div2{
+height:700px;
+background-color:#FBFCFC;
+width: 526.25px;
+}
+
+#h2-div2{
+ color: black;
+ font-family: 'Fredoka', cursive;
+}
+
+#inicio-div-2,#h2-div2{
+ padding-top: 5px;
+ display: flex;
+ align-items: center;
+ font-size: 42px;
+ justify-content: center;
+ font: bold 100%;
+ cursor: pointer;
+}
+
+
+#tradicionais{
+    width: 100px;
+    height: 100px;
+}
+#caldaquente{
+    width: 100px;
+    height: 100px;
+}
+#especiais{
+    width: 100px;
+    height: 100px;
+}
+#trufados{
+    width: 100px;
+    height: 100px;
+}
+
+#tradicionais, #caldaquente,#especiais, #trufados{
+display: flex;
+}
+
+
+#conteudo-div2{
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+
+   
+
+
+
+
+
+
+
+    
+/*DIV 3 ABAIXO */
+.div3{
+height:700px;
+background-color:lightgrey;
+width: 526.25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fim{
+    background-color:blue;
+    height:80px;
+}
