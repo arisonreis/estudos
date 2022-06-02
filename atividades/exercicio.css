@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+
+
+
+#input{
+    background-color: white;
+    border:2px solid black;
+}
+
+
+
+#resultado{
+    color:yellow;
+    font-family: sans-serif;
+}
+
+#formulario{
+    height: 500px;
+    width:600px;
+    border: 2px solid black;
+    background: #00f52de3;
+}
+
+#p-usuario{
+    font-size: 20px ;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#p-senha{
+    font-weight: bold;
+    font-size:20px ;
+    font-family: sans-serif;
+}
+
+#usuario{
+ justify-content: center; 
+ display:flex;
+ align-items: center;
+ gap: 10px;
+}
+
+#senha{
+ display:flex;
+ align-items: center;
+ gap: 30px;
+ justify-content: center;
+}
+
+#btn1{
+    margin-left: 200px;
+}
+
+#conteudo-formulario{
+margin-top:200px;
+}
+
+

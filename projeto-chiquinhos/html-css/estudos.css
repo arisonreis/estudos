@@ -9,54 +9,81 @@
 }
 
 body{
-    background: #fff;
-    background-size:100vh ;
+ background: #fff;
+ background-size:100vh ;
 }
+
+
+
 /*header abaixo*/
 #header{
  display: flex;
  height:100px;
- background-color: #42B5FF;
  display:flex;
  align-items: center;
  justify-content:center;
+ justify-content: space-around;
+ background-color: #42B5FF;
 }
 
-#nav,#ul,#li,#a{
- margin:0px;
- display:flex;
- color: white;
- font-family:'Fredoka', cursive;
- padding:10px;
- font-weight: bold;
- font-size: 36px;
- cursor: pointer;
+#img-h1{
+   padding-left: 230px;
+   gap:30px;
 }
-#div-logo{
- padding-inline-end: 110px;
- display:flex;
- align-items: center;
- height: 150px;
- border-bottom: 1px dashed black;
-background-color: white;
+
+#img-header{
+ width: 90px;
 }
-#logo{
+ 
+#nav-login{
  display: flex;
- width: 100px;
- cursor: pointer;
 }
+
 h1{
  display: flex;
  font-family: 'righteous', cursive;
  color: black;
- font-size:40px;
+ font-size:30px;
  cursor: pointer;
 }
+
+#btn1{
+ height: 56px;
+ width: 70px;
+ background-color: red;
+ color: white;
+ font-size: 20px;
+ border: none;
+ font-weight: bold;
+ font-family: 'Fredoka', cursive;
+ border-radius: 38px;
+}   
+
+#div-logo{
+height: 70px;
+background:yellow;
+}
+
+#nav,#ul,#li,#a-div{
+display: flex;
+align-items:center;
+gap: 30px;
+justify-content:center;
+font-weight:bold;
+font-family: 'Fredoka', cursive; 
+font-size: 24px; 
+padding-top:5px;
+color: black;
+}
+
 #div-logo, #logo, h1{
  justify-content:center;
  gap: 30px;
 }
+/*HEADER ACIMA*/
 
+
+/*DIV ABAIXO DO HEADER*/
 #produtos{
  height: 80px;
  background-color: white;
@@ -83,7 +110,7 @@ h1{
 
 /*MAIN ABAIXO*/
 main{   
- background-image: url(fundogif.gif);
+ background-image: url(/projeto-chiquinhos/fundos/fundogif.gif);
  background-position: fixed;
  background-attachment: fixed;
  background-size: 100vh;
@@ -145,7 +172,7 @@ width: 526.25px;
 }
 
 #background{
- background-image: url( fundovermelho.svg);
+ background-image: url(/projeto-chiquinhos/fundos/fundovermelho.svg);
  background-position: top right;
  background-size: 100%;
  background-repeat: no-repeat;
@@ -200,7 +227,7 @@ width: 526.25px;
 }
 
 #background2{
- background-image: url(fundovermelho.svg);
+ background-image: url(/projeto-chiquinhos/fundos/fundovermelho.svg);
  background-position: center top right;
  background-size: 100%;
  background-attachment:scroll;
@@ -208,7 +235,7 @@ width: 526.25px;
 }
 
  #background3{
- background-image: url(fundovermelho.svg);
+ background-image: url(/projeto-chiquinhos/fundos/fundovermelho.svg);
  background-position: center top;
  background-size: 100%;
  background-attachment:scroll;
@@ -378,72 +405,6 @@ section{
 /**
  DIV 2 ABAIXO
  **/ 
-
-.div2{
-height:700px;
-background-color:#FBFCFC;
-width: 526.25px;
-}
-
-#h2-div2{
- color: black;
- font-family: 'Fredoka', cursive;
-}
-
-#inicio-div-2,#h2-div2{
- padding-top: 5px;
- display: flex;
- align-items: center;
- font-size: 42px;
- justify-content: center;
- font: bold 100%;
- cursor: pointer;
-}
-
-
-#tradicionais{
-    width: 100px;
-    height: 100px;
-}
-#caldaquente{
-    width: 100px;
-    height: 100px;
-}
-#especiais{
-    width: 100px;
-    height: 100px;
-}
-#trufados{
-    width: 100px;
-    height: 100px;
-}
-
-#tradicionais, #caldaquente,#especiais, #trufados{
-display: flex;
-}
-
-
-#conteudo-div2{
-display: flex;
-flex-direction: row;
-gap: 10px;
-}
-
-   
-
-
-
-
-
-
-
-    
-/*DIV 3 ABAIXO */
-.div3{
-height:700px;
-background-color:lightgrey;
-width: 526.25px;
-}
 
 
 
