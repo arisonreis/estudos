@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200&display=swap');
+
 *{
 margin: 0;
 padding: 0;
@@ -10,26 +12,113 @@ text-decoration: none;
 
 
 body{
-background: lightgrey;
+background-size: 100%;
+background-repeat:no-repeat; 
 }
 
+#p-header{
+color : black;
+text-align: center;
+font-size: 30px;
+font-family: 'Anton', sans-serif;
+cursor: pointer;
+margin-bottom:10px;
+align-items:center;
+}
 
 #header{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    background: #fff;
-    
-}
-
-#menu{
     display: flex;
     align-items: center;
-    height:70px;
+    margin-top: 10px;
+    justify-content: space-around; 
 }
 
-ul li{
-    font-size: 40px;
-    display: inline-block;
-    font-family: 'Koulen', cursive;
+#img-header{
+    width: 50px;
+    margin-bottom: 20px 20px;
 }
+
+#div-pagamentos{
+    margin-top :70px;
+    background:white;
+    height: 200px;
+    width: 500px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+#h2-pagamentos{
+    text-align: center;
+color:black;
+font-size: 16px;
+font-weight: normal;
+font-family: 'Anton', sans-serif;
+}
+
+#nav, #ul, #li ,a{
+    display:flex;
+    color : black;
+text-align: center;
+font-size: 20px;
+font-family: 'Anton', sans-serif;
+gap: 20px;
+cursor:pointer;
+}
+
+main{
+border-top: 1px solid black; 
+display:flex;
+flex-direction:column;
+}
+
+
+
+#h2-pagamentos{
+    color:black;
+
+}
+
+
+#s1{
+    margin:10px 20px 0px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+}
+
+#img1{
+    width: 40px;
+}
+
+#h2-s1{
+    font-weight:normal;
+text-align: center;
+font-size: 25px;
+font-family: 'Anton', sans-serif;
+}
+#seta{
+    width:40px;
+}
+
+#s2{
+    margin:10px 17px 0px;
+    display:flex;
+    flex-direction: row;
+    gap:11px;
+    align-items: center;
+}
+
+#img2{
+    width: 50px;
+}
+
+#h2-s2{
+    font-weight:normal;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;  
+}
+
+
