@@ -1,0 +1,34 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*  QUANDO USADO O POSITION, DESBLOQUEAMOS LEFT, RIGHT, BOTTOM, TOP 
+ASSIM PODENDO MOVER O ITEM SEM PREJUDICAR OS OUTROS */
+
+.div1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+}
+
+.div2{
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 500px;
+    top: 300px;
+}
+
+.div3{
+    background-color: lightgreen;
+    width: 100px; 
+    height: 100px;
+    position: relative;
+    left: 400px; 
+}

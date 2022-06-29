@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1" type="button" onclick="migrar()">CLIQUE</button>
+
+
+    <script>
+function migrar(){
+ // Exibe uma caixa de diálogo modal para fazer uma pergunta ao usuário
+ var answer = confirm("Ready to move on?");
+ // Se ele clicou no botão "OK", faz o navegador carregar uma nova página
+ if (answer) window.location = "https://www.youtube.com";
+} // Executa a função definida acima por 1 minuto (60.000 milissegundos) a partir de agora.
+setTimeout(migrar, 60000);
+    </script>
+
+
+    <button onclick="alert('oi \nolá')">clique em mim</button>
+    
+</body>
+</html>
