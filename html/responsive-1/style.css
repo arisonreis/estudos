@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 70px;
+  width: 100%;
+  background-color: #e7e7e7;
+}
+
+#logo,
+a {
+  font-family: sans-serif;
+  color: black;
+}
+
+#logo {
+  font-size: 1.5rem;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#menu a {
+  font-size: 1.2rem;
+  display: block;
+  padding: 0 5px;
+}
+
+#menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #btn-mobile {
+    gap: 5px;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+  }
+
+  #menu {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #e7e7e7;
+    z-index: 100;
+    visibility: hidden;
+    width: 100%;
+    overflow-y: hidden;
+    transition: 0.6s;
+    height: calc(100vh - 70px);
+  }
+
+  #menu a {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    padding: 1rem 1rem;
+  }
+
+  #nav.active #menu {
+    display: block;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  #hamburguer {
+    width: 20px;
+    border-top: 2px solid black;
+    height: 2px;
+    display: block;
+    margin-top: 4px;
+  }
+
+  #hamburguer::after,
+  #hamburguer::before {
+    content: "";
+    background-color: currentColor;
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    transition: 0.6s;
+  }
+
+  #nav.active #hamburguer {
+    border-top-color: transparent;
+    margin-top: -2px;
+  }
+
+  #nav.active #hamburguer::after {
+    transform: rotate(135deg);
+  }
+
+  #nav.active #hamburguer::before {
+    transform: rotate(-135deg);
+    position: relative;
+    top: 7px;
+  }
+}
+
+.content {
+  width: 40%;
+  height: 200px;
+  background-color: red;
+  border: 3px solid black;
+  margin: 10px 0;
+}
+
+#section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  padding: 0 10px;
+}
+
+@media  (max-width: 699px) {
+  #header {
+    position: fixed;
+  }
+
+  #section {
+    flex-direction: column;
+    padding: 80px 0;
+    margin: 0px;
+  }
+
+  .content {
+    width: calc(100% - 10%);
+  }
+}
+
+@media (max-width:1000px)and (min-width:700px){
+  #section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .content{
+    width: 46%;   
+  }
+
+}

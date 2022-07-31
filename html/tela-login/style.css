@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 23px;
+}
+
+h1 {
+  font-family: "righteous", cursive;
+  font-weight: 700;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 110px);
+}
+
+#tela {
+  background-color: #00dc3e;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center top ;
+  gap: 20px;
+  height: 100%;
+  width: 60%;
+}
+
+#div-icon {
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  display: flex;
+}
+
+#img-icon {
+  width: 70px;
+  padding-top: 10px;
+}
+#img-icon:hover{
+  cursor: pointer;
+  transform: rotate(360deg);
+   transition: 2s;
+}
+
+#content{
+  display: flex;
+  justify-content: center top;
+  gap: 30px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.usuario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  width: 100%;
+}
+
+.input{
+width: 50%;
+height: 40px;
+border-radius: 10px;
+border: 3px solid white;
+background: none;
+font-size: 24px;
+font-family: sans-serif;
+}
+
+.p{
+  font-family: 'righteous', cursive;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}.p:hover{
+  color: rgba(0, 0, 0, 0.747);
+  cursor: pointer;
+}
+
+#fim{
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 30px ;
+}
+
+#entrar{
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  width: 40%;
+  padding: 5px;
+} #entrar:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.705);
+  transform: scale(1.1,1.1);
+}
+
+#img-entrar{
+width: 38px;
+}
+
+#nextPage{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#img-next{
+  width: 28px;
+}
+
+.p-next{
+  font-family: 'righteous', cursive;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}.p-next:hover{
+  color:rgba(0, 0, 0, 0.616);
+}
+
+
+#p-ajuda{
+  font-size: 23px;
+  text-align: end;
+  font-family: 'righteous', cursive;
+  font-weight: bold;
+}#p-ajuda:hover{
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.74);
+}
+  
+  
+  #ajuda{
+    padding: 0 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+      body,
+      html {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 10px 20px;
+      }
+      h1 {
+        text-align: center;
+        color: red;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        margin: 15% auto;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TREINANDO .....</h1>
+
+    <form autocomplete="on">
+      <fieldset>
+        <legend>Faça Seu Cadastro abaixo</legend>
+        <label for="cidade">selecione sua cidade</label>
+        <select name="estado" id="cit">
+            <option value="" selected>..selecione</option>
+          <optgroup label="região 1">
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>
+          </optgroup>
+          <optgroup label="região 2">
+            <option value="pr">Paraná</option>
+            <option value="pa">Pará</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <button onclick="enviar()" type="button">enviar</button>
+      <button onclick="ver()" type="button">Ver tudo</button>
+    </form>
+  </body>
+</html>

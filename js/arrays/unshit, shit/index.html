@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+      body,
+      html {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 10px 20px;
+      }
+      #fecha {
+        display: none;
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        margin: 15% auto;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+      <label>DIGITE SEUS DADOS ABAIXO</label>
+      <input type="text" id="input" />
+      <button type="button" onclick="enviar()">enviar</button>
+      <button type="button" onclick="ver()">Ver dados enviados</button>
+      <button type="button" onclick="fechar()" id="fecha">fechar</button>
+      <button type="button" onclick="inicio()">Remover dados do inicio</button>
+      <button type="button" onclick="fim()">remover ultimo dado inserido</button>
+      <button type="button" onclick="apagar()">apagar todos os dados</button>
+      <button type="button" onclick="elementStart()">adicionar um elemento no inicio</button>
+      <button type="button" onclick="elementEnd()">adicionar um elemento no final</button>
+    </form>
+
+    <p id="p">
+      <style>
+        p {
+          color: red;
+          text-align: center;
+        }
+      </style>
+    </p>
+  </body>
+</html>
